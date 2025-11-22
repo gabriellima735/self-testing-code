@@ -8,3 +8,26 @@
   (if (<= valor-da-compra 100)
     15 (if (<= valor-da-compra 200)
          5 0 )))
+; ADD in array
+(conj ["Batata" "arroz" "Feijão"] "Banana")
+
+; REMOVE in array
+(pop ["Batata" "arroz" "Feijão"])
+
+(defn desistir-ultima-compra
+  [compras]
+  (pop compras))
+(desistir-ultima-compra ["Batata" "arroz" "Feijão"])
+
+
+
+
+
+
+
+
+
+
+
+
+
