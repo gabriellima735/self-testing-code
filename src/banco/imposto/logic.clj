@@ -8,4 +8,3 @@
   [valor]
   (if (estra-na-faixa-insencao? valor)
     0  (* valor 0.1)))
-
